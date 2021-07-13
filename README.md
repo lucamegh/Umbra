@@ -15,6 +15,8 @@ let package = Package(
 
 ## Usage
 
+### Settings shadows
+
 Umbra makes it easy to add shadows to your views. Just create a `UIView.Shadow` and assign it to your view via the `shadow` property.
 
 ```swift
@@ -32,6 +34,8 @@ Changing single shadow properties is easier too:
 view.shadow.color = .blue // Umbra
 view.layer.shadowColor = UIColor.black.cgColor // UIKit
 ```
+
+### Static factory methods
 
 Given that all the shadow properties are contained within the `UIView.Shadow` type, you could, for example, declare static factory methods to make consistent shadows across your entire app:
 
