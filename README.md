@@ -15,7 +15,7 @@ let package = Package(
 
 ## Usage
 
-### Settings shadows
+### Setting shadows
 
 Umbra makes it easy to add shadows to your views. Just create a `UIView.Shadow` and assign it to your view via the `shadow` property.
 
