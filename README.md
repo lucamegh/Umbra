@@ -37,7 +37,7 @@ view.layer.shadowColor = UIColor.black.cgColor // UIKit
 
 ### Static factory methods
 
-Given that all the shadow properties are contained within the `UIView.Shadow` type, you could, for example, declare static factory methods to make consistent shadows across your entire app:
+Given that all the shadow properties are contained within the `UIView.Shadow` type, you're encouraged to declare static factory methods to make shadows consistent across your entire app:
 
 ```swift
 extension UIView.Shadow {
